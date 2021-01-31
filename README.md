@@ -4,7 +4,7 @@ Made for SwampHacks 2021
 
 ## Illumination for Urination
 
-https://youtu.be/Jrh0NJqjG1E
+[![](http://img.youtube.com/vi/Jrh0NJqjG1E/0.jpg)](http://www.youtube.com/watch?v=Jrh0NJqjG1E "")
 
 ## Setup
 A comprehensive guide to setup is provided in [`README_setup.md`](README_setup.md).  
@@ -24,7 +24,7 @@ Open a python3 session in the root of this directory. and run the following:
 from db_interface import  *
 
 conn = create_connection()
-create_table(con)
+create_table(conn)
 ```
 
 Your database is now initialized!
